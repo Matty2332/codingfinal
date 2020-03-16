@@ -20,5 +20,7 @@
             }; 
         </script>
 
+CaseA is a function expression and so only defined when that line is reached, while CaseB is a function declaration and is defined as soon as its surrounding function or script is executed 
+
 
 

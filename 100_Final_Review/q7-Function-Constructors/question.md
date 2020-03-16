@@ -37,3 +37,6 @@ newHotrod()
 // test your function
   let myHotrod = new Car('Mustang')
   myHotrod.honk()
+
+  A assigns honk to car but only to the instance of car rather than all car types like hotrod. By assigning honk to prototype that will now be accessible to all types of cars no matter what type of car they are.
+  When bind is called on the honk function, the context and contents is passed to the new object so that it has access to honk and all it's dependencies.
